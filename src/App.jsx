@@ -2,13 +2,18 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { Post } from './assets/components/Post'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Hi! World</h1>
+      <Post autor="Juan Camilo" body= "Developer"/>
+      <Post autor="Jose Fernando" body="Pilot"/>
+      <Post autor="Zuleima" body="The best mother"/>
+      <Post autor="Cristopher" body="boy"/>
+
     </>
   )
 }
